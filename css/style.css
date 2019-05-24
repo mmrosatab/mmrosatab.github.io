@@ -3,8 +3,13 @@
     padding: 0;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.0em;
-    color: dimgray;
-    
+    color: dimgray; 
+    list-style-type: square;
+}
+
+.titulo-secao
+{
+    font-weight: bold;
 }
 
 body
@@ -19,8 +24,48 @@ span
     font-size: 1.5em;
 }
 
+ul 
+{ 
+  margin-left: 4%;
+}
+
+li
+{
+    text-align: justify    
+}
+
 header
 {
     text-align: center;
-   
+}
+
+.resumo-profissional
+{
+    text-align: justify;
+}
+
+.desloc
+{
+    margin-left: 4%;
+}
+
+/* PROPRIEDADE DESKTOP*/
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 768px)
+{
+    ul 
+    { 
+      margin-left: 2%;
+    }
+    
+    li
+    {
+        text-align: justify    
+    }
+    
+    .desloc
+    {
+        margin-left: 1%;
+    }
 }
