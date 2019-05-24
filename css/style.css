@@ -7,11 +7,6 @@
     list-style-type: square;
 }
 
-.titulo-secao
-{
-    font-weight: bold;
-}
-
 body
 {
     padding: 0;
@@ -39,7 +34,7 @@ header
     text-align: center;
 }
 
-.resumo-profissional
+#resumo-profissional
 {
     text-align: justify;
 }
