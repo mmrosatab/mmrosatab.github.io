@@ -1,3 +1,3 @@
-# Currículo
+# Meu Website
 
-Este repositório se destina a apresentação de minhas competências técnicas.
+Este repositório se destina a divulgação de trabalhos em desenvolvimento Web.
