@@ -10,6 +10,10 @@ export function Routes(){
             <NavBar/>
             <DomRoutes>
                 <Route path="/" Component={Home}/>
+                {/* <Route path="/portifolio" Component={Contact}/>
+                <Route path="/curriculum" Component={Contact}/>
+                <Route path="/classes" Component={Contact}/>
+                <Route path="/budges" Component={Contact}/> */}
                 <Route path="/contact" Component={Contact}/>
                 <Route path='*' Component={NoMatch} />
             </DomRoutes>
