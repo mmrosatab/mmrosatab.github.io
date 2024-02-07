@@ -1,11 +1,3 @@
-# Site de divulgação de trabalhos em desenvolvimento Web.
+# Descrição
 
-Este repositório se destina ao site de divulgação de trabalhos em desenvolvimento Web.
-
-- Header:  sobre portifolio curriculo contato linkedin (logo link)
-
-- download do currículo
-- tradução para português, inglês e espanhol
-- mostrar trabalhos mais recentes e bem feitos
-- divulgar trabalho como instrutora de programação
-    - divulgar site de marcação de aulas
+Este repositório se destina a criação de site para divulgação de trabalhos em desenvolvimento de software.
