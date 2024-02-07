@@ -37,7 +37,7 @@ export const FlagButton = styled.button<ButtonStyleProps>`
     width: 24px;
     height: 24px;
 
-    background: url(${({img}) => img}) no-repeat center center;
+    background: url(${({img}) => img}) no-repeat center center ;
     background-size: cover;
 `
 
@@ -63,7 +63,7 @@ export const SocialMediaButton= styled.a<ButtonStyleProps>`
     width: 28px;
     height: 28px;
 
-    background: url(${({img}) => img}) no-repeat center center;
+    background: url(${({img}) => img}) no-repeat center center ;
     background-size: cover;
 `
 
