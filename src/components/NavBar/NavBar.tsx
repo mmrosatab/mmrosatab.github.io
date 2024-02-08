@@ -90,12 +90,12 @@ export function NavBar(): JSX.Element{
                 <FlagsContainer>
                     <FlagButton
                         type="button"
-                        $imageSource={brazilImg}
+                        $imageSource={usaImg}
                         onClick={() => handleChangeLanguage('pt')}
                     />
                     <FlagButton
                         type="button"
-                        $imageSource={spainImg}
+                        $imageSource={usaImg}
                         onClick={() => handleChangeLanguage('es')}
                     />
                     <FlagButton
