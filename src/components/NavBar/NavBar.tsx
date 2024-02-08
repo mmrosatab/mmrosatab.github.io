@@ -12,12 +12,12 @@ import {
     SocialMediaContainer,
     SocialMediaButton,
 } from "./styles"
-import brazilImg from '../../../public/brazil-flag.svg'
-import usaImg from '../../../public/usa-flag.svg'
-import spainImg from '../../../public/spain-flag.svg'
-import infinityImg from '../../../public/infinity.svg'
-import githubImg from '../../../public/github.svg'
-import linkedinImg from '../../../public/linkedin.svg'
+import brazilImg from '../../assets/brazil-flag.svg'
+import usaImg from '../../assets/usa-flag.svg'
+import spainImg from '../../assets/spain-flag.svg'
+import infinityImg from '../../assets/infinity.svg'
+import githubImg from '../../assets/github.svg'
+import linkedinImg from '../../assets/linkedin.svg'
 import i18n from "../../i18n/i18"
 import { NavBarLink } from "./NavBarLink"
 import { useEffect } from "react"
