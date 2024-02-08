@@ -1,7 +1,7 @@
 export default {
-    curriculum: 'Currículo',
-    home: 'Home',
-    portifolio: 'Portifalio',
+    resume: 'Currículum',
+    home: 'Inicio',
+    portfolio: 'Portafolio',
     contact: 'Contacto',
     budgets: 'Presupuestos',
     classes: 'Clases',

@@ -20,14 +20,43 @@ import githubImg from '../../assets/github.svg'
 import linkedinImg from '../../assets/linkedin.svg'
 import i18n from "../../i18n/i18"
 import { NavBarLink } from "./NavBarLink"
+import { useEffect } from "react"
+
+type LanguageOptions = 'en' | 'es' | 'pt'
+const LANG_KEY = 'LANG_REACT_APP'
 
 export function NavBar(): JSX.Element{
 
     const { t } = useTranslation()
 
-    const handleChangeLanguage = (language: string) => {
+    const handleChangeLanguage = (language: LanguageOptions) => {
+        i18n.changeLanguage(language)
+        setLanguageOnStorage(language)
+    }
+
+    const setLanguage = (language: LanguageOptions) => {
         i18n.changeLanguage(language)
     }
+
+    const setLanguageOnStorage = (language: LanguageOptions) => {
+        if(window.localStorage){
+            window.localStorage.setItem(LANG_KEY, language)
+        }
+    }
+
+    const loadStorageInformation = () => {
+        if(window.localStorage){
+            const language = window.localStorage.getItem(LANG_KEY) as LanguageOptions
+
+            if(language && language.length > 0){
+                setLanguage(language)
+            }
+        }
+    }
+
+    useEffect(() => {
+        loadStorageInformation()
+    })
 
     return (
         <NavBarContainer>
@@ -37,8 +66,8 @@ export function NavBar(): JSX.Element{
                 </LogoContainer>
                 <UnorderedList>
                     <ListItem><NavBarLink to='/'>{t('home')}</NavBarLink></ListItem>
-                    <ListItem><NavBarLink to='/a'>{t('portifolio')}</NavBarLink></ListItem>
-                    <ListItem><NavBarLink to='/b'>{t('curriculum')}</NavBarLink></ListItem>
+                    <ListItem><NavBarLink to='/a'>{t('portfolio')}</NavBarLink></ListItem>
+                    <ListItem><NavBarLink to='/b'>{t('resume')}</NavBarLink></ListItem>
                     <ListItem><NavBarLink to='/c'>{t('classes')}</NavBarLink></ListItem>
                     <ListItem><NavBarLink to='/d'>{t('budgets')}</NavBarLink></ListItem>
                     <ListItem><NavBarLink to='/contact'>{t('contact')}</NavBarLink></ListItem>
@@ -60,14 +89,17 @@ export function NavBar(): JSX.Element{
                 </SocialMediaContainer>
                 <FlagsContainer>
                     <FlagButton
+                        type="button"
                         img={brazilImg}
                         onClick={() => handleChangeLanguage('pt')}
                     />
                     <FlagButton
+                        type="button"
                         img={spainImg}
                         onClick={() => handleChangeLanguage('es')}
                     />
                     <FlagButton
+                        type="button"
                         img={usaImg}
                         onClick={() => handleChangeLanguage('en')}
                     />
