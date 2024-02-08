@@ -56,7 +56,7 @@ export function NavBar(): JSX.Element{
 
     useEffect(() => {
         loadStorageInformation()
-    })
+    }, [])
 
     return (
         <NavBarContainer>
@@ -77,12 +77,12 @@ export function NavBar(): JSX.Element{
             <ContainerSocialMediaAndFlags>
                 <SocialMediaContainer>
                     <SocialMediaButton
-                        img={githubImg}
+                        $imageSource={githubImg}
                         href='https://github.com/mmrosatab'
                         target='_blank'
                     />
                     <SocialMediaButton
-                        img={linkedinImg}
+                        $imageSource={linkedinImg}
                         href='https://www.linkedin.com/in/mmrosatab/'
                         target='_blank'
                     />
@@ -90,17 +90,17 @@ export function NavBar(): JSX.Element{
                 <FlagsContainer>
                     <FlagButton
                         type="button"
-                        img={brazilImg}
+                        $imageSource={brazilImg}
                         onClick={() => handleChangeLanguage('pt')}
                     />
                     <FlagButton
                         type="button"
-                        img={spainImg}
+                        $imageSource={spainImg}
                         onClick={() => handleChangeLanguage('es')}
                     />
                     <FlagButton
                         type="button"
-                        img={usaImg}
+                        $imageSource={usaImg}
                         onClick={() => handleChangeLanguage('en')}
                     />
                 </FlagsContainer>
