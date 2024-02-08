@@ -12,9 +12,7 @@ import {
     SocialMediaContainer,
     SocialMediaButton,
 } from "./styles"
-import brazilImg from '../../assets/brazil-flag.svg'
 import usaImg from '../../assets/usa-flag.svg'
-import spainImg from '../../assets/spain-flag.svg'
 import infinityImg from '../../assets/infinity.svg'
 import githubImg from '../../assets/github.svg'
 import linkedinImg from '../../assets/linkedin.svg'
