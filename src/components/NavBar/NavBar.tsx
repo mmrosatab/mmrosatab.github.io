@@ -12,7 +12,9 @@ import {
     SocialMediaContainer,
     SocialMediaButton,
 } from "./styles"
+import brazilImg from '../../assets/brazil-flag.svg'
 import usaImg from '../../assets/usa-flag.svg'
+import spainImg from '../../assets/spain-flag.svg'
 import infinityImg from '../../assets/infinity.svg'
 import githubImg from '../../assets/github.svg'
 import linkedinImg from '../../assets/linkedin.svg'
@@ -88,12 +90,12 @@ export function NavBar(): JSX.Element{
                 <FlagsContainer>
                     <FlagButton
                         type="button"
-                        $imageSource={usaImg}
+                        $imageSource={brazilImg}
                         onClick={() => handleChangeLanguage('pt')}
                     />
                     <FlagButton
                         type="button"
-                        $imageSource={usaImg}
+                        $imageSource={spainImg}
                         onClick={() => handleChangeLanguage('es')}
                     />
                     <FlagButton
