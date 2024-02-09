@@ -1,7 +1,10 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 495 495" xml:space="preserve" width="800px" height="800px" fill="#000000">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <g> <polygon style="fill:#5c65c0;" points="247.5,0 247.5,40 455,40 455,455 247.5,455 247.5,495 495,495 495,0 "/> <polygon style="fill:#6f95ff;" points="40,455 40,40 247.5,40 247.5,0 0,0 0,495 247.5,495 247.5,455 "/> <path style="fill:#6f95ff;" d="M127.323,167.186h0.446c23.551,0,38.194-15.601,38.194-35.101 c-0.442-19.928-14.643-35.087-37.752-35.087C105.107,96.998,90,112.157,90,132.085C90,151.585,104.678,167.186,127.323,167.186z"/> <path style="fill:#6f95ff;" d="M266.4,398.002V284.576c0-6.086,0.464-12.119,2.24-16.459c4.887-12.149,15.978-24.693,34.641-24.693 c24.439,0,34.195,18.629,34.195,45.92v108.657H405V281.535c0-62.379-33.307-91.398-77.744-91.398 c-35.871,0-51.883,19.74-60.856,33.547v0.665h-0.442c0.118-0.219,0.306-0.442,0.442-0.665v-28.779h-67.537 c0.905,19.053,0,203.096,0,203.096H266.4z"/> <rect x="94.016" y="194.906" style="fill:#6f95ff;" width="67.506" height="203.096"/> </g> </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" viewBox="0 0 495 495" xml:space="preserve" width="800px" height="800px" fill="#000000">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+
+<g id="SVGRepo_iconCarrier"> <g> <polygon style="fill:#5c65c0;" points="247.5,0 247.5,40 455,40 455,455 247.5,455 247.5,495 495,495 495,0 "></polygon> <polygon style="fill:#6f95ff;" points="40,455 40,40 247.5,40 247.5,0 0,0 0,495 247.5,495 247.5,455 "></polygon> <path style="fill:#6f95ff;" d="M127.323,167.186h0.446c23.551,0,38.194-15.601,38.194-35.101 c-0.442-19.928-14.643-35.087-37.752-35.087C105.107,96.998,90,112.157,90,132.085C90,151.585,104.678,167.186,127.323,167.186z"></path> <path style="fill:#6f95ff;" d="M266.4,398.002V284.576c0-6.086,0.464-12.119,2.24-16.459c4.887-12.149,15.978-24.693,34.641-24.693 c24.439,0,34.195,18.629,34.195,45.92v108.657H405V281.535c0-62.379-33.307-91.398-77.744-91.398 c-35.871,0-51.883,19.74-60.856,33.547v0.665h-0.442c0.118-0.219,0.306-0.442,0.442-0.665v-28.779h-67.537 c0.905,19.053,0,203.096,0,203.096H266.4z"></path> <rect x="94.016" y="194.906" style="fill:#6f95ff;" width="67.506" height="203.096"></rect> </g> </g>
+
+</svg>
