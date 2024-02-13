@@ -24,4 +24,16 @@ export const CustomNavLink = styled(NavLink)`
         bottom: 4px;
         left: 11px;
     }
+
+    @media screen and (max-width: 700px) {
+
+        &:hover, &:focus{
+            border-left: 2px solid #6f95ff;
+            padding-left: 6px;
+        }
+
+        &:hover::after{
+            width: 0;
+        }
+    }
 `
